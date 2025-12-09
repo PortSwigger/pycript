@@ -1,5 +1,5 @@
 Uuid: 4826bfa0c67d41a8b518139186693131
-ExtensionType: 2
+ExtensionType: 1
 Name: PyCript
 RepoName: pycript
 ScreenVersion: 1.0
@@ -7,7 +7,7 @@ SerialVersion: 6
 MinPlatformVersion: 0
 ProOnly: False
 Author: Sourav Kalal/AnoF
-ShortDescription: Bypass client-side encryption using custom logic for manual and automation testing
+ShortDescription: Bypass client-side encryption using custom logic for manual and automation testing.
 EntryPoint: pycript.py
-BuildCommand: 
+BuildCommand: ./gradlew build
 SupportedProducts: Pro, Community
